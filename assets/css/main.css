@@ -1,0 +1,47 @@
+.container {
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    animation: example 3000ms infinite 1000ms;
+    
+  }
+  
+
+  
+  @keyframes example {
+    0%   { transform: translateY(0px) ;
+           background-color:red;
+          }
+    25%  { background-color: green;
+           transform: translateY(400px);
+         }
+    50%  { background-color: blue;
+           transform: translate(400px,400px);
+          }
+    75% { background-color: yellow;
+          transform: translate(400px,0px) 
+    }      
+    100% {background-color:red;
+          transform: translateY(0px);}
+  }
+ 
+ 
+    
+
+  
+  
+  
+  
+
+  
