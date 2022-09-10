@@ -1,16 +1,18 @@
-.container {
+body > .container {
+  width: 600px;
+  height: 600px;
+}
+
+
+.container .box  {
     max-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
   }
   
   .box {
     width: 150px;
     height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
     margin-left: 5px;
     margin-right: 5px;
     animation: example 3000ms infinite 1000ms;
